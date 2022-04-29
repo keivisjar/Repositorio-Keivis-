@@ -9,48 +9,81 @@
     body{background-color: rgb(150, 219, 240);}
     </style>
 </head>
-<body>   
-
+  <body>   
+<fieldset>
 <center>
-<h2>REGISTRO MATRÍCULA</h2>
-<legend> DATOS PERSONALES</legend>
+ <header><h2>REGISTRO MATRÍCULA</h2> </header>
+
+<nav><legend> DATOS PERSONALES</legend></nav>
 </center>
-<form action="" method="post"></form>
-
-
-<p> <label for=""> Nombres: <input type="text"; name="Nombres"></label></p>
-<p> <label for="">Apellidos: <input type="text"name="Apellidos:"></label></p>
-
-  Datos medicos
+<form action="" method="post">
+    <br>
+    <br>
+<section>
+    <label for=""> Nombres: <input type="text"; name="Nombres"></label>
+    <label for="">Apellidos: <input type="text"name="Apellidos:"></label>
+   <br>
+   <br>
+   <br>
+   <label for="">Fecha de nacimiento:</label><label for="fecha de nacimiento"></label>
+       <input type="date"> 
+       <label for="Edad">Edad:</label>
+       <input type="text"; name="Edad">
+       <label for="Dirección">Dirección:</label>
+       <input type="text"; name="Dirección">
+    </section>
+<br>
+<br>
+<br>
+<br>
+<aside>
+<legend> DATOS MEDICOS </legend> <br>
 <td>Tipo de sangre</td>
-<td><select name="n2" id="n2">
+<select name="n2" id="n2">
     <option value="A+">A+</option>
     <option value="A-">A-</option>
     <option value="O+">O+</option>
     <option value="O-">O-</option>
     <option value="B+">B+</option>
     <option value="B-">B-</option>
-</select>
-</tr>
+</select><br>
 <br>
 <br>
-<br>
-<label for="">Fecha de nacimiento:</label><label for="fecha de nacimiento"></label>
-    <input type="date"> 
-    <label for="Edad">Edad:</label>
-    <input type="text"; name="Edad">
-    <label for="Dirección">Dirección:</label>
-    <input type="text"; name="Dirección">
-    <label for="Alegirco A:">Alegirco A:</label>
+<div align=""></div>
+<label for="Alegirco A:">Alegirco A:</label>
     <input type="text"; name="Alegirco A">
+    <br>
+<br>
+<br>
+<label for="Alegirco A:">Alegirco A:</label>
+    <input type="text"; name="Alegirco A">
+    <br>
+    <br>
+    <p>¿Padece alguna enfermedad?</p>
+    <label><input type="radio" name="valor" value="SI"> SI<br></label>
+    <label><input type="radio" name="valor" value="NO"> NO<br></label>
+    <br>
+   <p> ¿Cual?</p>
+   <input type="text"; name="cual">
+   <br>
+    <br>
+   <p>Selecccione su deporte favorito</p>
+    <label><input type="checkbox" name="futbol"> Futbol</label><br>
+
+      <label><input type="checkbox" name="beisbol"> Beisbol</label><br>
+
+      <label><input type="checkbox" name="ciclismo"> Ciclismo</label><br>
+    </aside>
+
     <br>
     <br>
     <br>
     <center>
     <legend> DATOS ESCOLARES</legend>
 </center>
-<td>Ultimo grado</td><br>
-<td><select name="n2" id="n2">
+<section>
+<label ><p> Ultimo grado</p></label>
+<select name="n2" id="n2">
     <option value="1">1</option>
     <option value="2">2</option>
     <option value="3">3</option>
@@ -64,20 +97,39 @@
     <option value="11">11</option>
 </select>
 
-<td>Materia preferida</td><br>
-<td><select name="n2" id="n2">
+<label ></label><p> Materia preferida</p></label>
+<select name="n2" id="n2">
     <option value="1">Matemáticas</option>
-    <option value="2">Lengua Castellana</option>
-    <option value="3">Inglés</option>
     <option value="4">Ciencias Naturales</option>
-    <option value="5">Ciencias Sociales</option>
-    <option value="6">Tecnología e Informática</option>
-    <option value="7">Educación Artística</option>
-    <option value="8">Ética y Religión</option>
-    <option value="8">Calculo</option>
+    <option value="8">Cálculo</option>
     <option value="8">Geografia</option>
     <option value="8">Quimica</option>
 </select>
+<label ><p>Ultimo promedio</p> </label>
+<input type="text"; name="ultimo promedio">
+</section>
+<br>
+<br>
+<br>
+<center>
+<legend>DATOS ACUDIENTE</legend>
+</center>
+<br>
+<br>
+<label for=""> Nombres: <input type="text"; name="Nombres"></label>
+<label for="">Apellidos: <input type="text"name="Apellidos:"></label>
 
+<label for=""> Parentesco: <input type="text"; name="Parentesco"></label> <br>
+<br>
+<br>
+
+<label for="">Celular: <input type="text"name="Celular:"></label>
+<label for="">Celular 2: <input type="text"name="Celular 2:"></label>
+
+
+
+</form>
+
+</fieldset>
 </body>
 </html>
