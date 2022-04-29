@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<<html lang="es">
+    <head>
+        <style>
+            body{background-color: rgb(123, 204, 103);}
+            </style>
+        <style>
+        aside {
+          width: 40%;
+          padding-left: 15px;
+          margin-left: 15px;
+          float: right;
+        }
+        section {
+          width: 50%;
+          padding-left: 20px;
+          margin-left: 20px;
+          float: left;
+        }
+        </style>
+  <meta http-equiv="CONTENT-TYPE" content="text/html;charset=UTF-8">
+  <title>REGISTRO MATRICULA</title>
+</head>
+<hr>
+<form>
+    <header>
+        <h1><center>REGISTRO MATRICULA</center></h1>
+    </header>
+    <hr>
+    <main>
+    <h2><center>DATOS PERSONALES</center></h2>
+    <hr>
+<section>
+    <table  
+        <tr>
+            <td>
+           <p>Nombres:</p><input type="text" size="32">
+            </td>
+            <td>
+           <p>Apellidos:</p><input type="text" size="31">
+            </td>
+        </tr>
+    </table>
+    <table  
+        <tr>
+            <td>
+             <p>Fecha de nacimiento:</p> <input type="date">
+        </td>
+            <td>
+           <p>Edad:</p> <input type= "number" id="tentacles" name="tentacles" min="7" max="25">
+            </td>
+            <td>
+              <p>Direccion:</p> <input type="text">
+            </td>
+        </tr>
+    </table>
+        <hr>
+        <h3><center>DATOS ESCOLARES</center></h3>
+        <hr>
+    <table 
+        <tr>
+            <td>
+              <p>Ultimo grado:</p>
+              <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+              </select>
+            </td>
+            <td>
+        <p>Materia preferida:</p>
+        <select name="n2" id="n2">
+            <option value="1">Matemáticas</option>
+            <option value="4">Ciencias Naturales</option>
+            <option value="8">Cálculo</option>
+            <option value="8">Geografia</option>
+            <option value="8">Quimica</option>
+        </select>
+            </td>
+            <td>
+              <p>Ultimo promedio:</p> <input type="number" step="0.1" min="0" max="5.0">
+            </td>
+            <td>
+                <p>Correo:</p> <input type="email">
+              </td>
+        </tr>
+    </table>
+<hr>
+<h3>
+    <center>DATOS ACUDIENTE</center>
+</h3>
+<hr>
+    <table 
+        <tr>
+            <td>
+             <p>Nombre:</p> <input type="text">
+            </td>
+            <td>
+        <p>Apellido:</p> <input type="text">
+            </td>
+            <td>
+              <p>Parentesco:</p>
+              <select>
+                  <option>Padre</option>
+                  <option>Madre</option>
+                  <option>Hermano/a</option>
+                  <option>Primo/a</option>
+                  <option>Abuelo/a</option>
+                  <option>Hijo/a</option>
+                  <option>Tio/a</option>
+              </select>
+            </td>
+        </tr>
+    </table>
+<table 
+    <tr>
+        <td>
+         <p>Celular 1:</p> <input type="tel">
+        </td>
+        <td>
+           <p>Celular 2:</p> <input type="tel">
+        </td>
+    </tr>
+</table>
+</section>
+<aside>
+    <hr>
+    <h3><center>DATOS MEDICOS</center></h3>
+    <hr>
+        <P>Tipo de sangre:</P>
+        <select>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>O+</option>
+            <option>O-</option>
+        </select>
+<p style=color:white>.</p>
+        <p>Alergico a:</p> <input type="text">
+        <p>Alergico a:</p> <input type="text">
+<p style=color:white>.</p>
+    <p>Padece alguna enfermedad?</p>
+        <input type="radio" name="hm" value="h"> SI
+        <input type="radio" name="hm" value="m"> NO
+            <p>Cual?</p> <input type="text">
+<p style=color:white>.</p>
+    <p>Seleccione deporte favorito</p>
+    <input type="checkbox" name="casilla">Futbol
+    <input type="checkbox" name="casilla">Beisbol
+    <input type="checkbox" name="casilla">Ciclismo
+</aside>
+</form>
+</html> 
